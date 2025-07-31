@@ -29,18 +29,46 @@
 
 <hr>
 
+
+
+
+  <title>Photo Animation</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial;
+    }
+
+    .image-container {
+      width: 300px;
+      margin: 50px auto;
+      overflow: hidden;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .image-container img {
+      width: 100%;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .image-container:hover img {
+      transform: scale(1.2); /* Zoom effect */
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="Old">Old Gamcha </h1>
+
+  <div class="image-container">
+    <img src="https://scontent.fktm14-1.fna.fbcdn.net/v/t39.30808-6/520836374_10172134587455545_6315770889947487045_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG4X3nedvG9qmN-bOUHuBj3FUEozx6hglEVQSjPHqGCUQNa7X3_kjveubKY3a90a70lRNpxXlVhYj693ZWHOiCQ&_nc_ohc=zhV0196CZawQ7kNvwFAcciz&_nc_oc=AdkfwoUVFZJil4HW6Q5zvcilZil0eU420FXQ2da8oHvEZOhpA_z9sip2e79wwGFJ37E&_nc_zt=23&_nc_ht=scontent.fktm14-1.fna&_nc_gid=o-Bc8Y0cgHwpqhG-Uhs_Gw&oh=00_AfQKTbDjRzo_rEfOWcH25i17MfNfnrh2sJqdTfJhR2ueGw&oe=689127FC" alt="Animated Photo">
+  </div>
+  <p id="provided">Photo provided by @Kumar_Nagarkoti</p>
+
   <pre>
 
-
-
-
-
-
-
-
-
-
-
+<hr>
 
 
 
@@ -71,16 +99,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
    </pre>
 
     <div class="Kumar">
@@ -89,14 +107,12 @@
     <img src="https://scontent.fktm14-1.fna.fbcdn.net/v/t39.30808-6/472210453_10170617179330545_2938390910571712480_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEUo6eePNcNL0rsHzlEBOA6tcQFBNsUVYm1xAUE2xRViac4yWQuah0lB3tBVV3Rbp5AdCF1fgR5U19Z73jDBoWj&_nc_ohc=_4lIK--h_VQQ7kNvwHSqjsx&_nc_oc=AdkCBO7KCsaWHeOXyQP5hm2Fu5QfFyWqWT9H4JMfw49BB7qvk9Gqa6Jx8G1vyhIk6K4&_nc_zt=23&_nc_ht=scontent.fktm14-1.fna&_nc_gid=ey9-QVFgnA-XkrumNgAO9g&oh=00_AfQ6Xs7duFmtgL7rYxLfGM0IheeEkCZC4AXBxPOmJzxJSg&oe=688FA072" alt="Image" height="200" ;
     style="max-width:100%;"/>
   </div></div>
-    <h1 id="headOne">Mr.Kumar Nagarkoti<pre></pre>
-      <h1 id="headTwo2">(Vice President)<pre>
-    Gamcha Youth Club</pre></h1>
+    <h1 id="headOne">Mr.Kumar Nagarkoti</h1<pre>
+    </pre>
+      <h1 id="headOne1">(Vice-President)<pre>
+</pre>Gamcha Youth Club</pre></h1>
   
 <hr>
-
-
- 
 
 <pre>
 
@@ -105,19 +121,17 @@
 
 
 
+
 </pre>
 
-<h1 id="JMU"> Let's start with Jatra Mahautsav held by Gamcha Youth Club on 2082 which was successfully ended.</h1>
+<h1 id="JMU">Gamcha Jatra Mahautsav 2082</h1>
 
 
-    
-    
-    
-    
+  
      <style>
-    body {
+  
      
- }
+ 
 
     .slideshow-row {
       width: 100%;
@@ -168,7 +182,50 @@
 
   </div>
 </div>
-    <p id="ss">Slideshow of Jatra Mahautsab</p>
+    <p id="ss">Jatra Mahautsab 2082 was organized by Gamcha Youth Club. It was successfully finished. GYC has entertain all the viewers with the help of different actors & local people dances. GYC has invited many National Artist,Different bands, Dancers on Gamcha Jatra Mahautsab. </p>
+
+
+    <hr>
+
+<pre>
+
+
+
+
+
+
+
+</pre>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <form id="feedbackForm" class="form-card">
+      <h2>Feedback </h2>
+
+      <label for="name">👤 Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required><pre> </pre>
+      <label for="email">📧 Email</label>
+      <input type="email" id="email" name="email" placeholder="example@gmail.com" required><pre> </pre>
+
+      <label for="message">💬 Your Feedback</label>
+      <textarea id="message" name="message" placeholder="Your Feedback" rows="3" required></textarea><pre> </pre>
+
+      <button type="submit">Send🚀</button>
+      <p id="responseMessage"></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+
+
+    
    
   </div>
   <br>
